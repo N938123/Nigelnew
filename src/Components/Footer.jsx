@@ -12,7 +12,7 @@ import instagram from "../assets/instagram.svg";
 import twitter from "../assets/twitter.svg";
 import linkedin from "../assets/Linkedin1.png";
 import youtube from "../assets/youtube.svg";
-
+import medium from "../assets/Medium.png"
 
 export default function Footer() {
   return (
@@ -96,6 +96,17 @@ export default function Footer() {
       Contact
     </a>
   </li>
+  <li>
+  <a
+    href="/Portfolio.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-white transition"
+  >
+    Portfolio
+  </a>
+</li>
+
 </ul>
 
           </div>
@@ -149,7 +160,17 @@ export default function Footer() {
     className="h-6 w-6 opacity-60 hover:opacity-90 transition cursor-pointer"
   />
 </a>
-
+<a
+  href="https://medium.com/@agencynigelquadros"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img
+    src={medium}
+    alt="Medium"
+    className="h-5 w-5 opacity-60 hover:opacity-90 transition cursor-pointer"
+  />
+</a>
            
             </div>
           </div>
