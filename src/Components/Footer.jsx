@@ -207,6 +207,17 @@ export default function Footer() {
             className="h-16 md:h-20 object-contain"
           />
         </div>
+        <br/>
+        <br/>
+        <div className="mt-20 text-center space-y-3">
+  <p className="text-xs tracking-widest text-gray-500 ">
+    Made with ❤️ in India IN for the World 🌍
+  </p>
+
+  <p className="text-xs text-gray-600">
+    © 2013 - 2026 | Agency by Nigel Quadros | All Rights Reserved ®
+  </p>
+</div>
 
       </div>
     </footer>
