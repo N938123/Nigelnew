@@ -4,11 +4,24 @@ import React, { useEffect, useState } from "react";
 import team0 from "../assets/Team.jpeg";
 import team1 from "../assets/Team1.jpeg";
 import team2 from "../assets/Team2.jpeg";
-import team3 from "../assets/Team3.jpeg";
+//import team3 from "../assets/Team3.jpeg";
 import team4 from "../assets/Team4.jpeg";
+import team5 from "../assets/Team5.jpeg";
+import team6 from "../assets/Team6.jpeg";
+import team7 from "../assets/Team7.jpeg";
+import team8 from "../assets/Team8.jpeg";
+import team9 from "../assets/Team9.jpeg";
+import team10 from "../assets/Team10.jpeg";
+import team11 from "../assets/Team11.jpeg";
+import team12 from "../assets/Team12.jpeg";
+import team13 from "../assets/Team13.jpeg";
+import team14 from "../assets/Team14.jpeg";
+import team15 from "../assets/Team15.jpeg";
+import team16 from "../assets/Team16.jpeg";
+import team17 from "../assets/Team17.jpeg";
+import team18 from "../assets/Team18.jpeg";
 
-
-const images = [team0, team1, team2, team4];
+const images = [team0, team1, team2, team4, team5, team6, team7, team8, team9, team10, team11, team12, team13, team14, team15, team16, team17, team18];
 
 export default function TeamSection() {
   const [activeIndex, setActiveIndex] = useState(0);

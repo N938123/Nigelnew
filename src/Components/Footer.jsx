@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import WorkWithUsModal from "./WorkWithUsModal";
 
 import logo from "../assets/TRANSP.png";
 
@@ -15,7 +16,8 @@ import youtube from "../assets/youtube.svg";
 import medium from "../assets/Medium.png"
 
 export default function Footer() {
-  return (
+  const [modalOpen, setModalOpen] = useState(false);
+  return (<>
     <footer className="w-full bg-gradient-to-r from-black via-black to-[#2a1205] text-gray-300">
       <div className="max-w-[1400px] mx-auto px-6 py-20">
 
@@ -97,14 +99,12 @@ export default function Footer() {
     </a>
   </li>
   <li>
-  <a
-    href="/Portfolio.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="hover:text-white transition"
-  >
-    Portfolio
-  </a>
+  <button
+  onClick={() => setModalOpen(true)}
+  className="hover:text-white transition"
+>
+  Portfolio
+</button>
 </li>
 
 </ul>
@@ -210,6 +210,12 @@ export default function Footer() {
 
       </div>
     </footer>
+    <WorkWithUsModal
+  isOpen={modalOpen}
+  onClose={() => setModalOpen(false)}
+  title="Work With Us"
+/>
+    </>
   );
 }
 
