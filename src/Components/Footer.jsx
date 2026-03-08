@@ -211,7 +211,7 @@ export default function Footer() {
         <br/>
         <div className="mt-20 text-center space-y-3">
   <p className="text-xs tracking-widest text-gray-500 ">
-    Made with ❤️ in India IN for the World 🌍
+    Made with ❤️ in India for the World 🌍
   </p>
 
   <p className="text-xs text-gray-600">
