@@ -20,8 +20,13 @@ import team15 from "../assets/Team15.jpeg";
 import team16 from "../assets/Team16.jpeg";
 import team17 from "../assets/Team17.jpeg";
 import team18 from "../assets/Team18.jpeg";
+import team18 from "../assets/Team19.jpeg";
+import team18 from "../assets/Team20.jpeg";
+import team18 from "../assets/Team21.jpeg";
+import team18 from "../assets/Team22.jpeg";
+import team18 from "../assets/Team23.jpeg";
 
-const images = [team0, team1, team2, team4, team5, team6, team7, team8, team9, team10, team11, team12, team13, team14, team15, team16, team17, team18];
+const images = [team0, team1, team2, team4, team5, team6, team7, team8, team9, team10, team11, team12, team13, team14, team15, team16, team17, team18, team19, team20, team21, team22, team23];
 
 export default function TeamSection() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -29,7 +34,7 @@ export default function TeamSection() {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prev) => (prev + 1) % images.length);
-    }, 3000);
+    }, 2300);
 
     return () => clearInterval(interval);
   }, []);
@@ -53,7 +58,7 @@ export default function TeamSection() {
   
           <p className="max-w-[520px] text-base md:text-lg leading-relaxed text-[#333333]">
   
-          Beyond titles and roles, every member of Agency by Nigel Quadros brings deep expertise, fresh perspectives, and an obsession with performance</p>
+          Beyond titles and roles, every member of Agency by Nigel Quadros brings deep expertise, fresh perspectives, and an obsession with performance.</p>
           <br/>
           <p className="max-w-[520px] text-base md:text-lg leading-relaxed text-[#333333]"> Together as growth partners, we shape the vision, culture, and standards that define how we work and why clients stay with us.
           </p>
