@@ -109,7 +109,7 @@ export default function Footer() {
               
 <li>
     <a
-      href="https://docs.google.com/forms/d/e/1FAIpQLScDkPC1XAsjWWwsHMKbWh_LzqGpsUY9RMK9xLYDTowINw-ZXg/viewform?usp=header"
+      href="https://forms.gle/kk7N8tZ9o7cd2KUi7"
       target="_blank"
       rel="noopener noreferrer"
       className="hover:text-white transition"
