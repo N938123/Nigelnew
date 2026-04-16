@@ -58,6 +58,7 @@ export default function Footer() {
     >
       Marvin (Global): agency@nigelquadros.com
     </a>
+    
     <a
       href="mailto:careers@nigelquadros.com"
       className="text-gray-400 hover:text-white transition"
