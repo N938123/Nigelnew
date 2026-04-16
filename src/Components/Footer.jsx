@@ -106,6 +106,17 @@ export default function Footer() {
   Portfolio
 </button>
 </li>
+              
+<li>
+    <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLScDkPC1XAsjWWwsHMKbWh_LzqGpsUY9RMK9xLYDTowINw-ZXg/viewform?usp=header"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-white transition"
+    >
+      Influencer Registration
+    </a>
+  </li>
 
 </ul>
 
