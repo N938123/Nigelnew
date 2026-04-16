@@ -49,14 +49,15 @@ export default function Footer() {
       href="tel:+919665064435"
       className="hover:text-white transition"
     >
-      +91 96650 64435
+      +91 96650 64435 (NIGEL)
     </a></p>
   <p className="mt-2 text-sm">
     <a
       href="mailto:agency@nigelquadros.com"
       className="text-gray-400 hover:text-white transition"
     >
-      agency@nigelquadros.com
+      Marvin (Global): agency@nigelquadros.com
+      Vineeta (Careers): careers@nigelquadros.com
     </a>
   </p>
 </div>
