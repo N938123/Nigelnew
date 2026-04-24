@@ -130,7 +130,7 @@ const cards = [
     items: [
       "Media Strategy & Planning",
       "Paid Search",
-      "Paid Social",
+      "Paid Social (TikTok, Snapchat, Amazon, noon, Meta, LinkedIn, X, etc)",
       "Programmatic & Display",
       "Marketplaces",
       "Streaming Platforms",
