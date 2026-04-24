@@ -20,19 +20,19 @@ const testimonials = [
   {
     quote:
       "The Agency by Nigel Quadros team brings incredible energy, remains highly receptive to feedback, and actively encourages collaboration to create outcomes that truly add value.",
-    author: "Fernando De Guama (CEO at Peridot Ascendancy)",
+    author: "Fernando De Guama (CEO at Peridot Ascendancy, State of Qatar)",
     rating: 5,
   },
   {
     quote:
-      "Their strategic approach and transparent communication helped us scale faster than expected. A truly reliable partner.",
-    author: "TechNova",
+      "Working with Nigel and his team has been a game changer for our performance metrics, they bring rare energy, technical precision, and a truly collaborative mindset that focuses on real value over vanity metrics.",
+    author: "Nauman Mohammed (Marketing Manager at Rove Hotels, U.A.E)",
     rating: 5,
   },
   {
     quote:
       "From planning to execution, the experience was seamless. The results spoke for themselves.",
-    author: "HealthCorp",
+    author: "Manjunath Pujari (MD at GoaTimeline Media, India)",
     rating: 5,
   },
 ];
