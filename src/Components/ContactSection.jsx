@@ -56,7 +56,7 @@ export default function ContactSection() {
         </p>
 
         <h2 className="text-center text-4xl md:text-5xl font-extrabold mb-6">
-          You made it.
+          You just made it.
         </h2>
 
         <div className="w-14 h-[3px] bg-[#dde82d] mx-auto mb-8" />
