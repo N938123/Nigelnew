@@ -36,12 +36,13 @@ export default function Footer() {
  
 <div className="md:translate-x-10 md:-translate-y-8">
 <div className="text-sm leading-relaxed text-gray-400 space-y-1">
-  <p>🇮🇳 : Goa | Delhi | Bangalore</p>
+  <p>🇮🇳 : Goa | Delhi | Bangalore | Mumbai</p>
   <p>🇦🇪 : Dubai | Abu Dhabi | Sharjah | Ajman</p>
   <p>🇶🇦 : Doha</p>
-  <p>🇧🇭 : Manama</p>
-  <p>🇸🇦  : Riyadh | Jeddah</p>
-  <p>🇴🇲: Muscat</p>
+  <p>🇧🇭 : Manama | Seef</p>
+  <p>🇰🇼 : Safat | Al Asimah | Al Ahmadi</p>
+  <p>🇸🇦  : Riyadh | Jeddah | Dammam</p>
+  <p>🇴🇲 : Muscat</p>
   <p>🇺🇸  : Chicago | Texas | Menlo Park</p>
 </div>
 
