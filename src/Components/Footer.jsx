@@ -189,7 +189,28 @@ export default function Footer() {
     className="h-5 w-5 opacity-60 hover:opacity-90 transition cursor-pointer"
   />
 </a>
-           
+<a
+  href="https://instagram.com/@nigelnquadros"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img
+    src={instagram}
+    alt="Instagram"
+    className="h-5 w-5 opacity-60 hover:opacity-90 transition cursor-pointer"
+  />
+</a>
+<a
+  href="https://x.com/@nigelnquadros"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img
+    src={twitter}
+    alt="Twitter"
+    className="h-5 w-5 opacity-60 hover:opacity-90 transition cursor-pointer"
+  />
+</a>           
             </div>
           </div>
 
