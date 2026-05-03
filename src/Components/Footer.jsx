@@ -53,11 +53,10 @@ export default function Footer() {
       +91 96650 64435 (NIGEL)
     </a></p>
   <p className="mt-2 text-sm">
-    <a
+      Marvin (Global): <a
       href="mailto:agency@nigelquadros.com"
       className="text-gray-400 hover:text-white transition"
-    >
-      Marvin (Global): agency@nigelquadros.com
+    > agency@nigelquadros.com
     </a>
   <p className="mt-2 text-sm leading-relaxed text-gray-400">  
     <a
