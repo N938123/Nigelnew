@@ -57,15 +57,13 @@ export default function Footer() {
       href="mailto:agency@nigelquadros.com"
       className="text-gray-400 hover:text-white transition"
     > agency@nigelquadros.com
-    </a>
+    </a></p>
   <p className="mt-2 text-sm leading-relaxed text-gray-400">  
-    <a
+      Vineeta (Careers): <a
       href="mailto:careers@nigelquadros.com"
       className="text-gray-400 hover:text-white transition"
-    >
-      Vineeta (Careers): careers@nigelquadros.com
+    >careers@nigelquadros.com
     </a></p>
-  </p>
 </div>
 
 </div>
