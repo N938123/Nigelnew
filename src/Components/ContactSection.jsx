@@ -20,8 +20,8 @@ export default function ContactSection() {
 
     emailjs
       .send(
-        "service_atjvzey", 
-        "template_pthlpnl",
+        "service_dj2wyqj", 
+        "template_oztqg7b",
         {
           ...formData,
           time: new Date().toLocaleString(),
