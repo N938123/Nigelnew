@@ -26,7 +26,7 @@ export default function ContactSection() {
           ...formData,
           time: new Date().toLocaleString(),
         },
-        "WMJzFhjrKTHwNQMcU"
+        "qQXXkreHU9_xsh_ky"
       )
       .then(() => {
         alert("Thanks! We’ll get in touch shortly.");
