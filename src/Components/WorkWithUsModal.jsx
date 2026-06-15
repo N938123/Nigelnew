@@ -15,10 +15,10 @@ export default function WorkWithUsModal({ isOpen, onClose, title }) {
 
     emailjs
       .sendForm(
-        "service_atjvzey",    
-        "template_81av9gu",    
+        "service_dj2wyqj",    
+        "template_oztqg7b",    
         formRef.current,
-        "WMJzFhjrKTHwNQMcU"    
+        "qQXXkreHU9_xsh_ky"    
       )
       .then(() => {
         alert("Form submitted successfully!");
